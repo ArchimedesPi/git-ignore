@@ -5,7 +5,7 @@ require 'git/ignore/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "git-ignore"
-  spec.version       = Git::Ignore::VERSION
+  spec.version       = GitIgnore::VERSION
   spec.authors       = ["ArchimedesPi"]
   spec.email         = ["archimedespi3141@gmail.com"]
   spec.summary       = %q{Lets you simply `git ignore` files.}

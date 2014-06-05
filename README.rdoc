@@ -1,4 +1,4 @@
-# Git::Ignore
+# GitIgnore
 
 TODO: Write a gem description
 
