@@ -1,6 +1,8 @@
 require 'thor'
 
 module GitIgnore
-  class CLI < Thor
+  class CLI
+    def start
+    end
   end
 end
