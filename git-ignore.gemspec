@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Git::Ignore::VERSION
   spec.authors       = ["ArchimedesPi"]
   spec.email         = ["archimedespi3141@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Lets you simply `git ignore` files.}
+  spec.description   = %q{Ever wanted to simply `git ignore` a file? Here's your gem.}
+  spec.homepage      = "http://archimedespi.github.io/git-ignore"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
