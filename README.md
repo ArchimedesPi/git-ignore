@@ -1,24 +1,15 @@
 # GitIgnore
 
-TODO: Write a gem description
+Ever wished you could just `git ignore` a file? You can now!
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'git-ignore'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install git-ignore
 
 ## Usage
 
-TODO: Write usage instructions here
+It works out-of-the-box, no config necessary.
+Just `git ignore <filename>` in a project to ignore it.
 
 ## Contributing
 
