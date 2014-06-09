@@ -1,4 +1,6 @@
 # GitIgnore
+[![Gem Version](https://badge.fury.io/rb/git-ignore.svg)](http://badge.fury.io/rb/git-ignore) [![Code Climate](https://codeclimate.com/github/ArchimedesPi/git-ignore.png)](https://codeclimate.com/github/ArchimedesPi/git-ignore)
+
 
 Ever wished you could just `git ignore` a file? You can now!
 
