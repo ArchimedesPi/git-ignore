@@ -1,3 +1,22 @@
 #!/usr/bin/env ruby
 
-# ...
+require 'gitignore/version'
+require 'rugged'
+
+require 'methadone'
+include Methadone::Main
+include Methadone::CLILogging
+
+main do |filename|
+  rep = Rugged::Repository.discover(Dir.pwd)
+  gitignore = Pathname.new(rep.path).parent + ".gitignore"
+  File.open(gitignore.to_path, 'a') do |f|
+    f.puts "#{filename}"
+  end
+end
+
+version GitIgnore::VERSION
+description "Add all those pesky files to the gitignore!"
+arg :filename, :required
+
+go!
