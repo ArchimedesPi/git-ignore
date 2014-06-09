@@ -1,8 +1,5 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in git-ignore.gemspec
-gemspec
-
 gem 'bundler'
 gem 'rake'
 gem 'methadone'
