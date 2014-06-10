@@ -9,7 +9,7 @@ include Methadone::CLILogging
 
 main do |filename|
   rep = Rugged::Repository.discover(Dir.pwd)
-  gitignore = Pathname.new(rep.path).parent + ".gitignore"
+  gitignore = Pathname.new(rep).parent + ".gitignore"
   File.open(gitignore.to_path, 'a') do |f|
     f.puts "#{filename}"
   end
