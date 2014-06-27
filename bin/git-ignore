@@ -11,7 +11,7 @@ main do |filename|
   rep = Rugged::Repository.discover(Dir.pwd)
   gitignore = Pathname.new(rep).parent + ".gitignore"
   File.open(gitignore.to_path, 'a') do |f|
-    f.puts "#{filename}"
+    f.puts "\n#{filename}"
   end
 end
 
